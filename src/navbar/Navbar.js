@@ -43,7 +43,7 @@ const Navbar = () => {
           <input type='text' placeholder='Front end developer' />
         </span>
         <span className='line'></span>
-        <span className='jobs-er'>
+        <span className='jobs'>
           <i className='fas fa-map-marker-alt icon' />
           <input type='text' placeholder='Lagos, Nigeria' />
         </span>

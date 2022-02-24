@@ -88,15 +88,16 @@
   align-items: center;
 }
 .jobs {
-  font-size: 18px;
+  flex: 2;
+  font-size: 1px;
   line-height: 21px;
   letter-spacing: 0.08em;
   color: #3e3e40;
-  flex-basis: 41%;
 }
 input {
-  width: 85%;
-  margin: 0px 10px;
+  width: 70%;
+  margin-right: 30px;
+  margin-left: 20px;
   border: 0px;
   font-size: 25px;
   outline: none;
@@ -106,20 +107,21 @@ input {
   border: 0.8px solid #62becb;
 }
 .search-btn {
+  flex: 0.5;
   background: #ea5566;
   border-radius: 10px;
   height: 47px;
-  width: 121px;
+  width: 10px;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.08em;
   color: #ffffff;
   border: 0px;
-  left: 0px;
+  margin-left: 90px;
   cursor: pointer;
 }
 .icon {
   font-size: 30px;
   color: #62becb;
-  margin: 15px;
+  margin-left: 15px;
 }
