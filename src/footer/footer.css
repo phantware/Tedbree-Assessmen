@@ -1,0 +1,75 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 266px;
+  background: #0f4a7b;
+}
+
+.rightFooter {
+  flex: 2;
+}
+.footer-logo {
+  padding: 2px 0px 17.25px 101px;
+  color: #c6e3e8;
+  cursor: pointer;
+}
+.copywright {
+  padding-left: 106px;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+}
+.find-job {
+  color: #e5e5e5;
+}
+
+.centerFooter {
+  flex: 2;
+}
+.qlink {
+  font-size: 20px;
+  padding-top: 52px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.footer-ul {
+  padding-left: 10px;
+  margin-top: 10px;
+  list-style: none;
+}
+.footer-li {
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.leftFooter {
+  flex: 1;
+}
+.social-media {
+  font-size: 22px;
+  padding-top: 20px;
+  padding-left: 50px;
+  line-height: 160%;
+  color: #ffffff;
+}
+.social-ul {
+  display: flex;
+  padding-top: 20px;
+  list-style: none;
+}
+.social-li {
+  padding: 5px;
+}
+.icon {
+  font-size: 30px;
+  color: white;
+  margin-left: 15px;
+  cursor: pointer;
+}
