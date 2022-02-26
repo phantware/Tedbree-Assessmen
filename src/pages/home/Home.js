@@ -2,6 +2,7 @@ import React from 'react'
 import JobDescription from '../../components/jobs/JobDescription'
 import './home.css'
 import { data } from '../../data'
+import JobSeeker from '../../components/jobs/JobSeeker'
 console.log('here is data', data)
 
 const Home = () => {
@@ -12,7 +13,9 @@ const Home = () => {
           return <JobDescription data={jd} />
         })}
       </div>
-      <div className='home-right'></div>
+      <div className='home-right'>
+        <JobSeeker />
+      </div>
     </div>
   )
 }

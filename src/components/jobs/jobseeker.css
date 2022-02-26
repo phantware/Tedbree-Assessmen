@@ -1,0 +1,75 @@
+.jds-main {
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.jds-title {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.12em;
+  color: #0f4a7b;
+  padding: 44px 0px 19px 37px;
+}
+.icon2 {
+  font-size: 18px;
+  color: #62becb;
+  margin-left: 43px;
+  margin-top: 7px;
+}
+.jds-street {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.12em;
+  color: #3e3e40;
+}
+.jds-apply {
+  background: #0f4a7b;
+  border-radius: 10px;
+  padding: 10px 36px;
+  margin: 26px 447px 26.63px 37px;
+}
+.jds-apply-txt {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 21px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+.jds-line {
+  border: 0.8px solid #ea5566;
+}
+.jds-desc {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #3e3e40;
+  margin: 42.37px 35px 24px 37px;
+}
+
+.jds-li {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  color: #3e3e40;
+  padding-bottom: 20px;
+  list-style: disc;
+}
+
+.jds-requirement-title {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  margin: 29px 0px 29px 37px;
+  color: #3e3e40;
+}
+
+.jds-req-li {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  color: #3e3e40;
+  padding-bottom: 30px;
+  margin-right: 30px;
+  list-style: disc;
+}
