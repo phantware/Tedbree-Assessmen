@@ -10,15 +10,16 @@ const JobDescription = ({ data }) => {
           <h3 className='jd-salary'>$2k-$5k</h3>
         </div>
         <div className='jd-location'>
-          <h3 className='jd-locations'>Ikeja, Lagos</h3>
+          <span>
+            <i className='fas fa-map-marker-alt icon2' />
+          </span>
+          <span className='jd-locations'>Ikeja, Lagos</span>
         </div>
-        <div className='jd-detail'>
-          <h4 className='jd-details'>
-            We seek an experienced Javascript web application developer who is
-            proficient with React.js and has excellent communication skills.
-          </h4>
-        </div>
-        <input type='button' value='See more' />
+        <h4 className='jd-detail'>
+          We seek an experienced Javascript web application developer who is
+          proficient with React.js and has excellent communication skills.
+        </h4>
+        <button className='jd-btn'>See more</button>
       </div>
     </div>
   )

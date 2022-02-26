@@ -1,12 +1,17 @@
 .home {
-  width: 100%;
+  margin: 110px 96px 97px 95px;
   display: flex;
+  justify-content: space-between;
 }
 
 .home-left {
   flex: 1;
+  padding: 10px;
+  margin: 20px;
 }
 
 .home-right {
   flex: 1;
+  padding: 10px;
+  margin: 20px;
 }
