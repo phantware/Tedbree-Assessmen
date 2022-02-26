@@ -1,4 +1,5 @@
 import React from 'react'
+import './jobdescription.css'
 
 const JobDescription = ({ data }) => {
   return (

@@ -7,9 +7,12 @@ console.log('here is data', data)
 const Home = () => {
   return (
     <div className='home'>
-      {data.map((jd) => {
-        return <JobDescription data={jd} />
-      })}
+      <div className='home-left'>
+        {data.map((jd) => {
+          return <JobDescription data={jd} />
+        })}
+      </div>
+      <div className='home-right'></div>
     </div>
   )
 }

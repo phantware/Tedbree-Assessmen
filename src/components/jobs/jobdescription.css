@@ -1,0 +1,10 @@
+.jd-main {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+.jd-container {
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(98, 190, 203, 0.15);
+  border-radius: 10px;
+}
