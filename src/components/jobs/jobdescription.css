@@ -3,7 +3,6 @@
 }
 
 .jd-container {
-  background: #ffffff;
   box-shadow: 0px 4px 17px rgba(98, 190, 203, 0.15);
   border-radius: 10px;
   width: 603px;
@@ -16,6 +15,7 @@
 }
 .jd-desc {
   font-size: 24px;
+  font-weight: 300;
   line-height: 28px;
   letter-spacing: 0.08em;
   padding: 32px 0 7px 34px;
@@ -23,6 +23,7 @@
 }
 .jd-salary {
   font-size: 24px;
+  font-weight: 300;
   line-height: 28px;
   letter-spacing: 0.08em;
   color: #0f4a7b;
@@ -41,7 +42,8 @@
 }
 .jd-detail {
   font-size: 14px;
-  line-height: 20px;
+  font-weight: 300;
+  line-height: 25px;
   letter-spacing: 0.08em;
   margin-top: 18px;
   margin-left: 53px;
@@ -60,4 +62,16 @@
   border-radius: 10px;
   border: 0px;
   cursor: pointer;
+}
+
+.active-card {
+  background: #0f4a7b;
+  color: #fff;
+}
+.active-color {
+  color: #fff;
+}
+.active-btn {
+  background: #ffffff;
+  color: #ea5566;
 }

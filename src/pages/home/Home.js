@@ -8,12 +8,18 @@ import { useState } from 'react'
 const Home = () => {
   const [display, setDisplay] = useState(false)
   const [id, setId] = useState('')
+
   return (
     <div className='home'>
       <div className='home-left'>
         {data.map((jd) => {
           return (
-            <JobDescription data={jd} setId={setId} setDisplay={setDisplay} />
+            <JobDescription
+              data={jd}
+              setId={setId}
+              setDisplay={setDisplay}
+              index={id}
+            />
           )
         })}
       </div>
