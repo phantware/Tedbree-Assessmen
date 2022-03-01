@@ -8,6 +8,9 @@ const JobDescription = ({ data, setId, setDisplay, index }) => {
     setId(id)
     setDisplay(true)
   }
+
+  //searching inputs
+
   return (
     <div className='jd-main'>
       <div className={`${index === id ? 'active-card' : ''} jd-container`}>

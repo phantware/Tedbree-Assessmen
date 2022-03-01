@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 import './navbar.css'
 
-const Navbar = () => {
+const Navbar = ({ setFind }) => {
+  const [type, setType] = useState('')
   return (
     <div className='navbar'>
       <div className='upper-nav'>
@@ -40,14 +42,27 @@ const Navbar = () => {
       <div className='search'>
         <span className='jobs'>
           <i className='fas fa-search icon' />
-          <input type='text' placeholder='Front end developer' />
+          <input
+            type='text'
+            placeholder='Front end developer'
+            onChange={(e) => setType(e.target.value.toLowerCase())}
+          />
         </span>
         <span className='line'></span>
         <span className='jobs'>
           <i className='fas fa-map-marker-alt icon' />
-          <input type='text' placeholder='Lagos, Nigeria' />
+          <input
+            type='text'
+            placeholder='Lagos, Nigeria'
+            onChange={(e) => setType(e.target.value.toLowerCase())}
+          />
         </span>
-        <input type='button' value='Search' className='search-btn' />
+        <input
+          type='button'
+          value='Search'
+          className='search-btn'
+          onClick={() => setFind(type)}
+        />
       </div>
     </div>
   )
