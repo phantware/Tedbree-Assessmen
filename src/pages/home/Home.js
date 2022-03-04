@@ -1,8 +1,8 @@
 import React from 'react'
-import JobDescription from '../../components/jobs/JobDescription'
+import JobDescription from '../../components/jobs/job-description/JobDescription.jsx'
 import './home.css'
 import { data } from '../../data'
-import JobSeeker from '../../components/jobs/JobSeeker'
+import JobSeeker from '../../components/jobs/job-seekers/JobSeeker.jsx'
 import { useState } from 'react'
 // import { useEffect } from 'react'
 

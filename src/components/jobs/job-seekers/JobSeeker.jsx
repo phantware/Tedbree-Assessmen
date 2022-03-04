@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './jobseeker.css'
-import { data } from '../../data'
+import { data } from '../../../data'
 import { useState } from 'react'
 
 const JobSeeker = ({ id, display }) => {
