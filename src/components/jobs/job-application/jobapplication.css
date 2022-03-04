@@ -1,0 +1,134 @@
+.main {
+  width: 80%;
+  margin: auto;
+  background: #f9fbfd;
+  border-radius: 10px;
+  padding: 50px;
+}
+.close-btn {
+  float: right;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+.close-icon {
+  font-size: 30px;
+  color: #3e3e40;
+}
+.job-desc {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.12em;
+  color: #0f4a7b;
+  margin-top: 60px;
+  margin-left: 63px;
+  padding-bottom: 20px;
+}
+.locations {
+  padding: 20px 0px 40px 0px;
+}
+.location {
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0.12em;
+  color: #3e3e40;
+}
+.cv-icon {
+  font-size: 18px;
+  color: #62becb;
+  margin: 10px 10px 10px 63px;
+}
+
+.job-form {
+  margin: 0px 62px 62px 63px;
+}
+.form-input {
+  padding: 12px;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 21px;
+  letter-spacing: 0.12em;
+  color: #0f4a7b;
+  padding: 12px;
+}
+.form-inputs {
+  width: 100%;
+  height: 50%;
+  background: #ffffff;
+  border: 0.5px solid #0f4a7b;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 12px 0px;
+  padding: 30px;
+}
+.upload-cv {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 0.5px solid #0f4a7b;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 12px 0px;
+  padding: 150px;
+}
+.logo-img {
+  display: flex;
+  flex: 1;
+  position: relative;
+  padding: 30px 0;
+}
+.upload-cv-logo1 {
+  position: absolute;
+  left: 35%;
+  top: 55px;
+  padding-top: 10px;
+}
+.drag-drop {
+  flex: 1;
+  font-size: 25px;
+  padding: 10px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #0f4a7b;
+}
+.or {
+  font-size: 25px;
+  line-height: 21px;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #0f4a7b;
+}
+.browse {
+  flex: 1;
+  width: 30%;
+}
+.browseFile {
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 20px 30px;
+  background: #0f4a7b;
+  border-radius: 10px;
+}
+.btn-submit {
+  width: 100%;
+  height: 50%;
+  font-size: 25px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background: #0f4a7b;
+  color: #ffffff;
+  margin: 12px 0px;
+  padding: 40px;
+}
