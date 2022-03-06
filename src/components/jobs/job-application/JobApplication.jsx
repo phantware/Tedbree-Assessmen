@@ -1,11 +1,18 @@
 import React from 'react'
 import './jobapplication.css'
-
+import { useDropzone } from 'react-dropzone'
 const JobApplication = () => {
+  const { acceptedFiles, getRootProps, getInputProps } = useDropzone()
+
+  const files = acceptedFiles.map((file) => (
+    <h1 key={file.path}>
+      {file.path} - {file.size} bytes
+    </h1>
+  ))
   return (
     <div className='main'>
       <div className='close-btn'>
-        <i class='fa fa-times close-icon' aria-hidden='true' />
+        <i className='fa fa-times close-icon' aria-hidden='true' />
       </div>
       <h1 className='job-desc'>Front end developer</h1>
       <div className='locations'>
@@ -35,7 +42,7 @@ const JobApplication = () => {
           <p>Phone Number</p>
           <input type='text' className='form-inputs' />
         </div>
-        <div className='upload-cv'>
+        <div {...getRootProps({ className: 'upload-cv' })}>
           <div className='logo-img'>
             <img
               src='/assets/images/Vector2.svg'
@@ -50,23 +57,19 @@ const JobApplication = () => {
           </div>
           <h3 className='drag-drop'>Drag and drop your CV here</h3>
           <h3 className='or'>or</h3>
+
           <div className='browse'>
             <label htmlFor='fileInput'>
               <div className='browseFile'>Browse file</div>
             </label>
-            <input
-              type='file'
-              name='cv'
-              id='fileInput'
-              style={{ display: 'none' }}
-            />
+            <input style={{ display: 'none' }} {...getInputProps()} />
           </div>
+          {files}
         </div>
-        <input
-          type='submit'
-          value='Submit Application'
-          className='btn-submit'
-        />
+
+        <button type='button' className='btn-submit'>
+          Submit Application
+        </button>
       </form>
     </div>
   )
