@@ -1,11 +1,15 @@
 import React from 'react'
 import './jobapplication.css'
 import { useDropzone } from 'react-dropzone'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
+import { data } from '../../../data'
 
 const JobApplication = () => {
   const { acceptedFiles, getRootProps, getInputProps } = useDropzone()
   const navigate = useNavigate()
+  const { id } = useParams()
+
+  const myData = data.filter((datum) => datum.id === parseInt(id))
 
   const files = acceptedFiles.map((file) => (
     <h1 key={file.path}>{file.path}</h1>
@@ -19,12 +23,12 @@ const JobApplication = () => {
           onClick={() => navigate(-1)}
         />
       </div>
-      <h1 className='job-desc'>Front end developer</h1>
+      <h1 className='job-desc'>{myData[0].title}</h1>
       <div className='locations'>
         <span className='cv-icon'>
           <i className='fas fa-map-marker-alt icon2' />
         </span>
-        <span className='location'>Ikeja Lagos</span>
+        <span className='location'>{myData[0].location}</span>
       </div>
       <form className='job-form'>
         <div className='form-input'>

@@ -26,7 +26,7 @@ const JobSeeker = ({ id, display }) => {
             </span>
           </div>
           <div className='jds-apply'>
-            <Link to='/jobs' style={{ textDecoration: 'none' }}>
+            <Link to={`/jobs/${id}`} style={{ textDecoration: 'none' }}>
               <h3 className='jds-apply-txt'>Apply Via Find Job</h3>
             </Link>
           </div>
