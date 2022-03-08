@@ -23,7 +23,7 @@ const Home = ({ find }) => {
       return jd
     }
   }
-  // useEffect(() => {}, [find])
+
   return (
     <div className='home'>
       <div className='home-left'>

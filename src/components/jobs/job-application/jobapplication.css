@@ -13,6 +13,7 @@
 .close-icon {
   font-size: 30px;
   color: #3e3e40;
+  cursor: pointer;
 }
 .job-desc {
   font-size: 30px;

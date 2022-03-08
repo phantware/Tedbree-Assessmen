@@ -1,18 +1,23 @@
 import React from 'react'
 import './jobapplication.css'
 import { useDropzone } from 'react-dropzone'
+import { useNavigate } from 'react-router-dom'
+
 const JobApplication = () => {
   const { acceptedFiles, getRootProps, getInputProps } = useDropzone()
+  const navigate = useNavigate()
 
   const files = acceptedFiles.map((file) => (
-    <h1 key={file.path}>
-      {file.path} - {file.size} bytes
-    </h1>
+    <h1 key={file.path}>{file.path}</h1>
   ))
   return (
     <div className='main'>
       <div className='close-btn'>
-        <i className='fa fa-times close-icon' aria-hidden='true' />
+        <i
+          className='fa fa-times close-icon'
+          aria-hidden='true'
+          onClick={() => navigate(-1)}
+        />
       </div>
       <h1 className='job-desc'>Front end developer</h1>
       <div className='locations'>

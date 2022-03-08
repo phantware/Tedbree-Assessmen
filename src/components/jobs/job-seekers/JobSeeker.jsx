@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './jobseeker.css'
 import { data } from '../../../data'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const JobSeeker = ({ id, display }) => {
   const [info, setInfo] = useState({})
@@ -25,7 +26,9 @@ const JobSeeker = ({ id, display }) => {
             </span>
           </div>
           <div className='jds-apply'>
-            <h3 className='jds-apply-txt'>Apply Via Find Job</h3>
+            <Link to='/jobs' style={{ textDecoration: 'none' }}>
+              <h3 className='jds-apply-txt'>Apply Via Find Job</h3>
+            </Link>
           </div>
           <hr className='jds-line' />
           <h4 className='jds-desc'>{check ? myData[0].details : null}</h4>
