@@ -1,0 +1,13 @@
+.main-left {
+  width: 100%;
+  background: #0f4a7b;
+}
+.logo-left {
+  transform: matrix(0.99, -0.12, 0.12, 0.99, 0, 0);
+  margin: 35px 0px 0px 82px;
+}
+.logo-text-left {
+  margin-left: 102px;
+  font-weight: 500;
+  color: #ffffff;
+}

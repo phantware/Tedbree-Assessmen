@@ -1,0 +1,15 @@
+.main-login {
+  display: flex;
+  background: #e5e5e5;
+}
+.main-login-left {
+  flex: 1;
+}
+
+.main-login-center {
+  flex: 5;
+}
+
+.main-login-right {
+  flex: 1;
+}
