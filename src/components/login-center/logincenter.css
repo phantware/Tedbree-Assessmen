@@ -1,0 +1,12 @@
+.logincenter-main {
+  /* width: 100%; */
+  color: green;
+  /* margin: 0; */
+}
+.rectangle {
+  width: 88px;
+  height: 833px;
+  background: #f57d7d;
+  transform-origin: top left;
+  transform: skew(-6deg);
+}
