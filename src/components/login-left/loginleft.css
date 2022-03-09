@@ -11,3 +11,14 @@
   font-weight: 500;
   color: #ffffff;
 }
+.intro-left {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  color: #ffffff;
+  margin: 120px 300px 8px 82px;
+}
+.background-logo {
+  margin: 0px 155px 74px 50px;
+}

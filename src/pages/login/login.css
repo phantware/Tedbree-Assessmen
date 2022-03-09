@@ -3,13 +3,13 @@
   background: #e5e5e5;
 }
 .main-login-left {
-  flex: 1;
+  flex: 4;
 }
 
 .main-login-center {
-  flex: 5;
+  flex: 0.3;
 }
 
 .main-login-right {
-  flex: 1;
+  flex: 4;
 }
