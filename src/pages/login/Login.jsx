@@ -4,7 +4,7 @@ import LoginLeft from '../../components/login-left/LoginLeft'
 import LoginRight from '../../components/login-right/LoginRight'
 import './login.css'
 
-const Login = () => {
+const Login = ({ user }) => {
   return (
     <div className='main-login'>
       <div className='main-login-left'>
@@ -14,7 +14,7 @@ const Login = () => {
         <LoginCenter />
       </div>
       <div className='main-login-right'>
-        <LoginRight />
+        <LoginRight user={user} />
       </div>
     </div>
   )

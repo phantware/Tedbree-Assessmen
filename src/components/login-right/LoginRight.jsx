@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import './loginright.css'
 
-const LoginRight = () => {
+const LoginRight = ({ user }) => {
+  let navigate = useNavigate()
+  console.log('user from loginright', user)
+  // useEffect(() => {
+  //   if (user) {
+  //     navigate('/')
+  //   }
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [user])
   return (
     <div className='login-right-main'>
       <div className='eclipse'>
@@ -31,7 +40,7 @@ const LoginRight = () => {
           <p>Password</p>
           <input type='password' className='login-right-form-inputs' />
         </div>
-        <button type='button' className='btn-submit-right'>
+        <button type='button' className='btn-submit-right' onClick={user}>
           Login
         </button>
       </form>
